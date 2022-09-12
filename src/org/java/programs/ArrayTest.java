@@ -12,7 +12,7 @@ public class ArrayTest {
 			a[i]=sc.nextInt();
 		}
 		System.out.println("output:");
-		for(int i=1;i<5;i++)
+		for(int i=0;i<6;i++)
 		{
 			System.out.println(a[i]);
 		}

@@ -7,13 +7,16 @@ public class Shimla {
 	{
 		
 		Scanner sc= new Scanner(System.in);
-		System.out.println("select  hotel 1 or hotel 2:");
+		System.out.println("select the hotel for given below");
+		System.out.println(" enter 1 shimala hotel:");
+		System.out.println("enter 2 for mumbai hotel:");
+		
 		int num=sc.nextInt();
 		switch(num)
 		{
 		
 		case 1: 
-			System.out.println("hotel 1 is selected:ABC");
+			System.out.println(" you have selected shimala ");
 			Scanner scan= new Scanner(System.in);
 			System.out.println("enter the number of children:");
 			int child=scan.nextInt();
@@ -86,10 +89,11 @@ public class Shimla {
 				break;
 				default:
 					System.out.println("no room are choosen");
+					
 		}
-			
+		break;
 		case 2:
-			System.out.println("hotel 2 is selected:MNO");
+			System.out.println("you have selected mumbai hotel:");
 			Scanner scan2= new Scanner(System.in);
 			System.out.println("enter the number of children:");
 			int child1=scan2.nextInt();
@@ -164,5 +168,5 @@ public class Shimla {
 					System.out.println("you not choosen any room");
 			}		
 		}
-	}      
+	}
 }
